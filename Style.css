@@ -1,0 +1,406 @@
+ 
+ ​/*Base Responsive*/ 
+ ​body​{ 
+ ​    ​margin​:​ ​0​; 
+ ​    ​padding​:​ ​0​; 
+ ​    ​box-sizing​:​border-box ; 
+ ​    ​background-color​:​ ​rgb​(​20​,​ ​0​,​ ​17​); 
+ ​} 
+  
+ ​.​header​{ 
+ ​    ​width​:​ ​100​%​; 
+ ​    ​background-color​:​ red; 
+ ​    ​color​:​ white; 
+ ​    ​display​:​ flex; 
+ ​    ​align-items​:​ center; 
+ ​    ​background-color​:​ black; 
+ ​} 
+  
+ ​/*LOGO*/ 
+ ​.​logo​{ 
+ ​    ​width​:​ ​100​%​; 
+ ​    ​text-align​:​ center; 
+ ​} 
+  
+ ​.​logo​ ​img​{ 
+ ​    ​width​:​ ​150​px​; 
+ ​    ​color​:​ white; 
+ ​    ​padding-left​:​ ​20​px​; 
+ ​    ​padding-top​:​ ​10​px​; 
+ ​    ​padding-bottom​:​ ​5​px​; 
+ ​} 
+  
+ ​/*NAVIGATION*/ 
+ ​.​navlinks​{ 
+ ​    ​width​:​ ​100​%​; 
+ ​    ​display​:​ flex; 
+ ​    ​align-items​:​ center; 
+ ​    ​justify-content​:​ flex-end; 
+ ​} 
+  
+ ​.​navlinks​ ​li​{ 
+ ​    ​list-style​:​ none; 
+ ​    ​padding​:​ ​0​px​ ​12​px​; 
+ ​} 
+  
+ ​.​navlinks​ ​li​ ​a​{ 
+ ​    ​text-decoration​:​ none; 
+ ​    ​color​:​ white; 
+ ​    ​font-size​:​ ​1.2​rem​; 
+ ​    ​padding​:​ ​2​px​ ​6​px​; 
+ ​    ​font-family​:​ ​'Roboto'​,​ sans-serif; 
+ ​    ​transition​:​ all ​0.4​s​ ease; 
+ ​} 
+  
+ ​.​navlinks​ ​li​ ​a​:​hover​{ 
+ ​    ​border-radius​:​ ​5​px​; 
+ ​    ​border​:​ ​2​px​ solid ​rgb​(​87​,​ ​0​,​ ​79​); 
+ ​} 
+  
+ ​/*SEARCH*/ 
+ ​.​right-nav​{ 
+ ​    ​width​:​ ​20​%​; 
+ ​} 
+  
+ ​.​search​{ 
+ ​    ​color​:​ white; 
+ ​    ​width​:​ ​40​px​; 
+ ​    ​height​:​ ​40​px​; 
+ ​    ​border-radius​:​ ​100​%​; 
+ ​    ​background-color​:​ ​rgb​(​66​,​ ​38​,​ ​63​); 
+ ​    ​display​:​ flex; 
+ ​    ​align-items​:​ center; 
+ ​    ​justify-content​:​ center; 
+ ​    ​cursor​:​ pointer; 
+ ​    ​transition​:​ ​0.4​s​ ease; 
+ ​} 
+  
+ ​.​search​:​hover​{ 
+ ​    ​background-color​:​ ​rgb​(​87​,​ ​0​,​ ​79​); 
+ ​} 
+  
+ ​.​search​ ​i​{ 
+ ​    ​color​:​ white; 
+ ​} 
+  
+ ​/*MENU*/ 
+ ​.​burger​{ 
+ ​    ​color​:​ white; 
+ ​    ​position​:​ absolute; 
+ ​    ​top​:​ ​13​px​; 
+ ​    ​left​:​ ​10​px​; 
+ ​} 
+  
+ ​.​lines​{ 
+ ​    ​border-radius​:​ ​5​px​; 
+ ​    ​margin​:​ ​5​px​; 
+ ​    ​font-size​:​ ​36​px​; 
+ ​    ​width​:​ ​25​px​; 
+ ​    ​height​:​ ​2​px​; 
+ ​    ​max-width​:​ ​4​px​ ​0​px​; 
+ ​    ​background-color​:​ ​rgb​(​255​,​ ​255​,​ ​255​); 
+ ​} 
+ ​    
+  
+ ​/*BODY*/ 
+ ​.​body-section​{ 
+ ​    ​display​:​ flex; 
+ ​    ​margin​:​ ​10​px​ ​10​px​; 
+ ​} 
+  
+  
+ ​.​sidebar1​{ 
+ ​    ​color​:​ white; 
+ ​    ​width​:​ ​50​%​; 
+ ​    ​height​:​ ​530​px​; 
+ ​    ​background-color​:​ transparent; 
+ ​} 
+  
+  
+ ​.​s2​{ 
+ ​    ​background-color​:​ turquoise; 
+ ​} 
+  
+  
+ ​.​main-body​{ 
+ ​    ​width​:​ ​0​; 
+ ​    ​height​:​ ​530​px​; 
+ ​    ​border-radius​:​ ​20​px​; 
+ ​    ​margin​:​ ​0​ ​10​px​ ​0​ ​10​px​; 
+ ​    ​background-color​:​ yellow; 
+ ​    ​text-align​:​ center; 
+ ​} 
+  
+  
+ ​.​footer​{ 
+ ​    ​width​:​ ​100​%​; 
+ ​    ​height​:​ ​80​px​; 
+ ​    ​border-radius​:​ ​20​px​; 
+ ​    ​background-color​:​ ​rgb​(​17​,​ ​0​,​ ​255​); 
+ ​    ​color​:​ white; 
+ ​    ​text-align​:​ center; 
+ ​} 
+  
+ ​/*TEXT BIO*/ 
+  
+ ​h2​{ 
+ ​    ​color​:​ white; 
+ ​} 
+  
+ ​.​row​{ 
+ ​    ​display​:​ flex; 
+ ​    ​justify-content​:​ space-between; 
+ ​    ​align-items​:​ center; 
+ ​    ​margin​:​ ​100​px​ ​0​; 
+ ​} 
+  
+ ​.​col-1​{ 
+ ​    ​flex-basis​:​ ​40​%​; 
+ ​    ​position​:​ relative; 
+ ​    ​margin-left​:​ ​50​px​; 
+ ​} 
+  
+ ​.​col-1​ ​h2​{ 
+ ​    ​font-size​:​ ​54​px​; 
+ ​} 
+  
+ ​.​col-1​ ​h5​{ 
+ ​    ​font-size​:​ ​30​px​; 
+ ​    ​color​:​ ​rgb​(​255​,​ ​193​,​ ​236​); 
+ ​    ​font-weight​:​ ​100​; 
+ ​    ​margin​:​ ​20​px​ ​0​ ​10​px​; 
+ ​} 
+  
+ ​.​col-1​ ​p​{ 
+ ​    ​color​:​ white; 
+ ​    ​margin​:​ ​30​px​ ​0​; 
+ ​    ​font-size​:​ ​20​px​; 
+ ​} 
+  
+ ​button​{ 
+ ​    ​width​:​ ​140​px​; 
+ ​    ​border​:​ ​0​; 
+ ​    ​padding​:​ ​12​px​ ​10​px​; 
+ ​    ​outline​:​ none; 
+ ​    ​color​:​ white; 
+ ​    ​background​:​ ​linear-gradient​(to right​,​ ​rgb​(​255​,​ ​89​,​ ​186​)​,​ ​rgb​(​255​,​ ​0​,​ ​106​)); 
+ ​    ​border-radius​:​ ​6​px​; 
+ ​    ​cursor​:​ pointer; 
+ ​    ​transition​:​ width ​0.5​s​; 
+ ​} 
+  
+ ​button​ ​img​{ 
+ ​    ​width​:​ ​30​px​; 
+ ​    ​display​:​ none; 
+ ​} 
+  
+ ​button​:​hover​ ​img​{ 
+ ​    ​display​:​ block; 
+ ​} 
+  
+ ​button​:​hover​{ 
+ ​    ​width​:​ ​160​px​; 
+ ​    ​display​:​ flex; 
+ ​    ​align-items​:​ center; 
+ ​    ​justify-content​:​ space-between; 
+ ​} 
+  
+ ​.​col-1​::​after​{ 
+ ​    ​content​:​ ​''​; 
+ ​    ​width​:​ ​10​px​; 
+ ​    ​height​:​ ​57​%​; 
+ ​    ​background​:​ ​linear-gradient​( ​rgb​(​255​,​ ​89​,​ ​186​)​,​ ​rgb​(​255​,​ ​0​,​ ​106​)); 
+ ​    ​position​:​ absolute; 
+ ​    ​left​:​ ​-40​px​; 
+ ​    ​top​:​ ​8​px​; 
+ ​} 
+  
+ ​/*BOX_IMAGES*/ 
+ ​.​color-box​{ 
+ ​    ​position​:​ absolute; 
+ ​    ​right​:​ ​0​; 
+ ​    ​top​:​ ​0​; 
+ ​    ​background​:​ ​linear-gradient​(to right​,​ ​rgb​(​255​,​ ​89​,​ ​186​)​,​ ​rgb​(​255​,​ ​0​,​ ​106​)); 
+ ​    ​border-radius​:​ ​20​px​ ​0​ ​0​ ​20​px​; 
+ ​    ​height​:​ ​100​%​; 
+ ​    ​width​:​ ​80​%​; 
+ ​    ​z-index​:​ ​-1​; 
+ ​} 
+  
+ ​.​add-btn​ ​img​{ 
+ ​    ​width​:​ ​35​px​; 
+ ​    ​margin-bottom​:​ ​5​px​; 
+ ​} 
+  
+ ​.​add-btn​{ 
+ ​    ​padding​:​ ​40​px​; 
+ ​    ​margin-bottom​:​ ​10​px​; 
+ ​    ​text-align​:​ center; 
+ ​    ​color​:​ white; 
+ ​    ​cursor​:​ pointer; 
+ ​} 
+  
+ ​/*SKILLS ARANGMAN*/ 
+ ​.​col-2​{ 
+ ​    ​position​:​ relative; 
+ ​    ​flex-basis​:​ ​60​%​; 
+ ​    ​display​:​ flex; 
+ ​    ​align-items​:​ center; 
+ ​} 
+  
+ ​.​col-2​ .​controller​{ 
+ ​    ​width​:​ ​90​%​; 
+ ​} 
+  
+  
+ ​/*SKILLS*/ 
+ ​@import​ ​url​(); 
+ ​*​{ 
+ ​    ​margin​:​ ​0​; 
+ ​    ​padding​:​ ​0​; 
+ ​    ​box-sizing​:​ border-box; 
+ ​    ​font-family​:​ ​'Roboto'​,​ sans-serif; 
+ ​} 
+  
+ ​.​skills​{ 
+ ​    ​display​:​ grid; 
+ ​    ​height​:​ ​100​%​; 
+ ​    ​width​:​ ​75​%​; 
+ ​    ​place-items​:​ center; 
+ ​} 
+  
+ ​.​skills-bar​{ 
+ ​    ​width​:​ ​100​%​; 
+ ​    ​border-radius​:​ ​10​px​; 
+ ​    ​padding​:​ ​25​px​ ​30​px​; 
+ ​} 
+  
+ ​.​skills-bar​ .​bar​{ 
+ ​    ​margin​:​ ​20​px​ ​0​; 
+ ​} 
+  
+ ​.​skills-bar​ .​bar​:​first-child​{ 
+ ​    ​margin-top​:​ ​0​px​; 
+ ​} 
+  
+  
+ ​.​skills-bar​ .​bar​ .​info​{ 
+ ​    ​margin-bottom​:​ ​5​px​; 
+ ​} 
+  
+ ​.​skills-bar​ .​bar​ .​info​ ​span​{ 
+ ​    ​color​:​ white; 
+ ​    ​font-size​:​ ​17​px​; 
+ ​    ​font-weight​:​ ​500​; 
+ ​    ​opacity​:​ ​0​; 
+ ​    ​animation​:​ showText.5s ​1​s​ linear forwards; 
+ ​} 
+  
+ ​@keyframes​ showText { 
+ ​    ​100​%​{ 
+ ​        ​opacity​:​ ​1​; 
+ ​    } 
+ ​     
+ ​} 
+  
+ ​.​skills-bar​ .​bar​ .​progress-line​{ 
+ ​    ​position​:​ relative; 
+ ​    ​border-radius​:​ ​10​px​; 
+ ​    ​height​:​ ​10​px​; 
+ ​    ​width​:​ ​100​%​; 
+ ​    ​background​:​ ​rgb​(​201​,​ ​201​,​ ​201​); 
+ ​    ​transform​:​ ​scaleX​(​0​); 
+ ​    ​transform-origin​:​ left; 
+ ​    ​box-shadow​:​ inset ​0​px​ ​1​px​ ​1​px​ ​rgba​(​255​,​ ​255​,​ ​255​,​ ​0.05​)​, 
+ ​                      ​0​px​ ​1​px​ ​rgb​(​255​,​255​,​255​,​255.08​); 
+ ​    ​animation​:​ animate ​1​s​ ​cubic-bezier​(​1​,​0​,​0.5​,​1​) forwards; 
+ ​} 
+  
+ ​.​bar​ .​progress-line​ ​span​{ 
+ ​    ​height​:​ ​100​%​; 
+ ​    ​width​:​ ​80​%​; 
+ ​    ​background​:​ ​rgb​(​255​,​ ​255​,​ ​255​); 
+ ​    ​position​:​ absolute; 
+ ​    ​border-radius​:​ ​10​px​; 
+ ​    ​transform​:​ ​scaleX​(​0​); 
+ ​    ​transform-origin​:​ left; 
+ ​    ​animation​:​ animate ​1​s​ ​1​s​ ​cubic-bezier​(​1​,​0​,​0.5​,​1​) forwards; 
+ ​} 
+  
+ ​@keyframes​ animate { 
+ ​    ​100​%​{ 
+ ​        ​transform​:​ ​scaleX​(​1​);   
+ ​    } 
+ ​} 
+  
+ ​.​progress-line​.​Photoshop​ ​span​{ 
+ ​    ​width​:​ ​90​%​; 
+ ​} 
+  
+ ​.​progress-line​.​Illustrator​ ​span​{ 
+ ​    ​width​:​ ​70​%​; 
+ ​} 
+  
+ ​.​progress-line​.​Website​ ​span​{ 
+ ​    ​width​:​ ​50​%​; 
+ ​} 
+  
+ ​.​bar​ .​progress-line​ ​span​::​before​{ 
+ ​    ​position​:​ absolute; 
+ ​    ​content​:​ ​""​; 
+ ​    ​right​:​ ​0​; 
+ ​    ​top​:​ ​-10​px​; 
+ ​    ​height​:​ ​0​; 
+ ​    ​width​:​ ​0​; 
+ ​    ​border​:​ ​7​px​ solid transparent; 
+ ​    ​border-bottom-width​:​ ​0​px​; 
+ ​    ​border-right-width​:​ ​0​px​; 
+ ​    ​border-top-color​:​ black; 
+ ​    ​opacity​:​ ​0​; 
+ ​    ​animation​:​ showText2 ​0.5​s​ ​1.5​s​ linear forwards; 
+ ​} 
+  
+ ​.​bar​ .​progress-line​ ​span​::​after​{ 
+ ​    ​position​:​ absolute; 
+ ​    ​right​:​ ​0​; 
+ ​    ​top​:​ ​-24​px​; 
+ ​    ​color​:​ white; 
+ ​    ​font-size​:​ ​12​px​; 
+ ​    ​font-weight​:​ ​500​; 
+ ​    ​background​:​ black; 
+ ​    ​padding​:​ ​1​px​ ​8​px​; 
+ ​    ​border-radius​:​ ​3​px​; 
+ ​    ​opacity​:​ ​0​; 
+ ​    ​animation​:​ showText2 ​0.5​s​ ​1.5​s​ linear forwards; 
+ ​} 
+  
+ ​@keyframes​ showText2 { 
+ ​    ​100​%​{ 
+ ​        ​opacity​:​ ​1​; 
+ ​    } 
+ ​     
+ ​} 
+  
+ ​.​progress-line​.​Photoshop​ ​span​::​after​{ 
+ ​    ​content​:​ ​"90%"​; 
+ ​} 
+  
+ ​.​progress-line​.​Illustrator​ ​span​::​after​{ 
+ ​    ​content​:​ ​"70%"​; 
+ ​} 
+  
+ ​.​progress-line​.​Website​ ​span​::​after​{ 
+ ​    ​content​:​ ​"50%"​; 
+ ​} 
+  
+ ​/*SOCIAL LINK*/ 
+ ​.​social-links​ ​img​{ 
+ ​    ​height​:​ ​13​px​; 
+ ​    ​margin​:​ ​20​px​; 
+ ​    ​cursor​:​ pointer; 
+  
+ ​} 
+  
+ ​.​social-links​{ 
+ ​    ​text-align​:​ center; 
+ ​}
